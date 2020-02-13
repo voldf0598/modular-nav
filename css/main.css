@@ -15,3 +15,20 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header {
+  background-color: #e2e2e2;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+a {
+  color: #0074d9;
+  font-family: sans-serif;
+}
+
+ul {
+  text-decoration: none;
+}
