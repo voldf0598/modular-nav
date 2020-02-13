@@ -10,6 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -18,17 +20,43 @@ html {
 
 header {
   background-color: #e2e2e2;
+  margin: 0;
+}
+
+body {
+  margin: 0;
 }
 
 h1 {
-  font-family: sans-serif;
+  text-align: center;
 }
 
-a {
-  color: #0074d9;
-  font-family: sans-serif;
-}
-
-ul {
+nav ul {
   text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav a {
+  color: #0074d9;
+  text-align: center;
+  list-style-type: none;
+}
+
+a:hover,
+a:focus,
+.current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav a {
+    text-align: left;
+  }
+
 }
